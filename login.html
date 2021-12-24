@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>form</title>
+	<style type="text/css">
+		body{
+			background-color: #727272;
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			font-size: 16px;
+			letter-spacing: 0px;
+			line-height: 22px;
+		}
+		.container{
+			width: 360px;
+			margin: 8px auto;
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 8px;
+			position: relative;
+			box-shadow: 5px 5px 15px #c9c9c9;
+		}
+		p{
+			font-size: 15px;
+			display: inline-block;
+		}
+		h3{
+			display: inline-block;
+			position: absolute;
+			right: 30px;
+			top: 10px;
+		}
+		hr{
+			margin: 20px;
+		}
+		.fb{
+			width: 380px;
+			margin-left: 20px;
+		}
+		button{
+			width: 100%;
+			padding: 15px;
+			margin: 8px 0 0 0;
+			border-radius: 10px;
+			border: 1px solid black;
+			background-color: aquamarine;
+			
+		}
+		button  :hover
+		{
+			opacity: 1;
+			cursor: pointer;
+		}
+		a{
+			text-decoration: none;
+			color: #4b4b9f;
+		}
+		.facebook{
+			background-color: #164675;
+		}
+		.facebook a, .fb{
+			color: white;
+			font-style: normal;
+			font-size: 16px;
+		}
+		.google{
+			background-color: white;
+		}
+		.google a, .gg{
+			color: brown ;
+			font-style: normal;
+			font-size: 16px;
+		}
+		input{
+			width: 100%;
+			margin: 8px 0;
+			padding: 6px 1px;
+			border-radius: 5px;
+			border: 1px solid black;
+		}
+		input::placeholder{
+			font-weight: 600px;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			color: #c3c3c3;
+		}
+		
+	</style>
+</head>
+<body>
+	<form>
+		<div class="container">
+			<h1>Login</h1>
+			<p>Sign up to create an account</p>
+			<h3>x</h3><br><hr>
+			<button class="facebook">
+				<a href="https://www.facebook.com"><i class="fb">Continue With Facebook</i></a>
+			</button>
+			<button class="google">
+				<a href="https://www.google.com"><i class="gg">Continue With Google</i></a>
+			</button>
+			
+			Email : <input type="text" name="email" class="j" autofocus placeholder="Email"> 
+			 <input type="password" name="pass" class="j" placeholder="Password"> 
+			 
+			<hr>
+			<button type="submit" class = "regsiter"> Login </button><br>
+			<p> By creating an account you agree to our <a href = "#" > Terms and conditions </a></p>
+			
+		
+			<p> Already have an account? <a href="#"> sign in </a></p>
+		</div>
+
+	</form>
+
+</body>
+</html>
